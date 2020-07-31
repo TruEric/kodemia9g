@@ -1,0 +1,65 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: 333;
+}
+
+header{
+    width: 1410px;
+    height: 150px;
+    background-color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline-style: solid;
+    outline-color: magenta;
+}
+
+nav{
+    width: 1300px;
+    height: 50px;
+    background-color: magenta;
+    font-size: 20px;
+    color: 333;
+    margin-top: 60px;   
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+section{
+    width: 830px;
+    height: 550px;
+    background-color: rgb(119, 152, 252);
+    font-size: 20px;
+    outline-style: solid;
+    outline-color: 333;
+}
+
+article{
+    width: 700px;
+    height: 130px;
+    background-color: rgb(226, 167, 222);
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30;
+}
+
+aside{
+    width: 550px;
+    height: 550px;
+    background-color: rgb(221, 128, 157);
+    outline-style: solid;
+    outline-color: 333;
+    float: right;
+    margin-top: -550px;
+}
+
+footer{
+    width: 1410px;
+    height: 80px;
+    background-color: rgb(200, 200, 238);
+    outline-style: solid;
+    outline-color: rgb(26, 26, 248);
+    margin-top: 40px;
+}
