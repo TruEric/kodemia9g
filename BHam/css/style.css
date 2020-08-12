@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body nav{
+    display: flex;
+    height: 60px;
+    background-color: thistle;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.burger-button{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: tomato;
+    padding: 8px;
+}
+
+.button-container:hover {
+    cursor: pointer;
+    display: hidden;
+}
+
+.inner-rectangle{
+    width: 25px;
+    height: 5px;
+    background-color: #333;
+    margin-top: 2px;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width:768px){
+    body nav{
+        display: flex;
+        height: 80px;
+        background-color: skyblue;
+        padding: 10px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .burger-button{
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: seagreen;
+        padding: 8px;
+    }
+
+    .inner-rectangle{
+        width: 45px;
+        height: 5px;
+        background-color: #333;
+        margin-top: 8px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    body nav{
+        display: flex;
+        height: 100px;
+        background-color: rgb(163, 0, 35);
+        padding: 10px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .burger-button{
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        background-color: rgb(211, 100, 26);
+        padding: 8px;
+    }
+
+    .inner-rectangle{
+        width: 65px;
+        height: 5px;
+        background-color: #333;
+        margin-top: 12px;
+    }
+}

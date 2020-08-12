@@ -1,0 +1,35 @@
+.quarter-vp{
+    height: 20vh;
+}
+
+.half-vp{
+    height: 60vh;
+}
+
+.quarter-bot-vp{
+    height: 20vh;
+}
+
+.min-height{
+    height: 50px;
+}
+
+.mid-height{
+    height: 100px;
+}
+
+.bg-cyan{
+    background-color: cyan;
+}
+
+.bg-magenta{
+    background-color: magenta;
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+
+.bg-blue{
+    background-color: skyblue;
+}
